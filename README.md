@@ -1,15 +1,15 @@
-SimHub Arduino code for Esp8266
+# SimHub Arduino code for Esp8266
 
-# What is this?
+## What is this?
 Utility to import your SimHub Arduino Setup and (mostly) import it to a Platform.io structure setup for a ESP8266. SimHub will see it as an Arduino Mega.
 
-# Why would you want to do this?
+## Why would you want to do this?
 ESP8266 are more powerful than most Arduinos, have more RAM and most importantly, they're significantly cheaper.
 
-# Known issues
+## Known issues
 A lot, you can mostly hook up screens and leds. I tried importing all libraries that SimHub uses but some don't support ESPs directly. However I believe some of the issues are due to timing of the processors, which can be easily addressed knowing the processor speed for esp8266 and adapting the code, but I can't do that myself right now.
 
-# How to
+## How to
 - Have SimHub installed in the default location
 - Dowload Platform.io (VSCode with Platformio plugin). This will replace Arduino IDE in your workflow. VSCode and Platformio are much more powerful, but more generic.
 - Set up what you want in the Arduino Setup Wizard in SimHub.
